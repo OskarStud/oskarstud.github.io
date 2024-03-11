@@ -1,0 +1,1 @@
+{"version":3,"file":"components-Badge-Badge-stories.css","mappings":"AAAA","sources":["webpack://react-start-template/./src/components/Badge/Badge.module.scss"],"sourcesContent":[".badge {\n  padding: 6px 10px;\n  display: inline-block;\n  border-radius: 6px;\n}"],"names":[],"sourceRoot":""}
