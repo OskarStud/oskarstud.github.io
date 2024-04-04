@@ -18,12 +18,8 @@ https://your-account-name.github.io
 
 # TODO
 
-##Components
-- ~~Modal~~
-- ~~Layout~~
-- ~~Header~~
-- ~~Logo~~
-- ~~Button 'В корзину'~~
-- ~~ItemCard~~
-- ~~ItemCardFull~~
-- ~~ItemCardInCart~~
+### Components
+
+- [ ] Управление состоянием модального окна
+- [ ] Переключение цветовой темы
+- [ ] Переключение языка
