@@ -1,0 +1,22 @@
+.buttonIntoCart {
+    width: 375px;
+    height: 54px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.buy {
+    color: var(--base-white);
+    background-color: var(--primary-500);
+}
+
+.count {
+    color: var(--primary-500);
+    border: 1px solid var(--primary-500);
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
