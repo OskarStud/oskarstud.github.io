@@ -1,0 +1,22 @@
+.modal {
+    width: 400px;
+    height: 300px;
+    border: 1px solid var(--gray-200);
+    border-radius: 6px;
+    background-color: var(--base-white-2);
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 80px 40px var(--gray-400);
+    word-wrap: break-word;
+    padding: 40px 20px;
+
+    .button {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+}
+

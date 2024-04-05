@@ -1,2 +1,2 @@
-export * from './Modal/Modal';
-export * from './ControlModal/ControlModal';
+export * from './Modal';
+export * from '../../widgets/ControlModal/ControlModal';
