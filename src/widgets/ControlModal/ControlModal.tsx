@@ -24,7 +24,7 @@ export const ControlModal: React.FC = () => {
         onFocus={() => setInputState('')}
       />
       <SimpleButton text={'Open modal'} onClick={clickHandler} />
-      <Modal visible={showModal} setShowModal={setShowModal} showModal={showModal} />
+      <Modal text={inputState} visible={showModal} setShowModal={setShowModal} showModal={showModal} />
     </ModalContext.Provider>
   );
 };
