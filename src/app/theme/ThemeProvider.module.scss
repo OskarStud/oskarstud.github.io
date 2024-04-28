@@ -75,7 +75,6 @@ $grayColor: #5D5D5D;
   --base-shark: #232227;
   --base-woodsmoke: #141316;
   --base-white: #fff;
-  --base-white-2: #fdfdfd;
   --base-alabaster: #fbfbfb;
   --violet-50: #f2ebfe;
   --violet-100: #d8c0fb;
@@ -138,6 +137,12 @@ $grayColor: #5D5D5D;
   --blaze-orange-800: #8b3b06;
   --blaze-orange-900: #6a2d05;
 }
+:root[data-theme="light"] {
+  --base-white-2: #fdfdfd;
+}
+:root[data-theme="dark"] {
+ --base-white-2: #1a1a1a;
+}
 
 body {
   font-family: 'Inter', sans-serif;
@@ -148,3 +153,4 @@ body {
   margin: 5px 10px;
   border-right: 1px solid var(--neutral-900);
 }
+
