@@ -13,7 +13,6 @@ $grayColor: #5D5D5D;
 :root {
   --gray-50: #f7f8f8;
   --gray-100: #edeef1;
-  --gray-200: #d8dbdf;
   --gray-300: #b6bac3;
   --gray-400: #8e95a2;
   --gray-500: #6b7280;
@@ -74,7 +73,6 @@ $grayColor: #5D5D5D;
   --base-black: #000;
   --base-shark: #232227;
   --base-woodsmoke: #141316;
-  --base-white: #fff;
   --base-alabaster: #fbfbfb;
   --violet-50: #f2ebfe;
   --violet-100: #d8c0fb;
@@ -138,14 +136,22 @@ $grayColor: #5D5D5D;
   --blaze-orange-900: #6a2d05;
 }
 :root[data-theme="light"] {
+  --gray-200: #d8dbdf;
+  --base-white: #fff;
   --base-white-2: #fdfdfd;
+  --neutral-900: #262626;
 }
 :root[data-theme="dark"] {
- --base-white-2: #1a1a1a;
+  --gray-200: #383B42;
+  --base-white: #262626;
+  --base-white-2: #1a1a1a;
+  --neutral-900: #FCFCFC;
 }
 
 body {
   font-family: 'Inter', sans-serif;
+  background-color: var(--base-white-2);
+  color: var(--neutral-900);
 }
 
 .vr {
