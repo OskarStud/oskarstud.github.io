@@ -5,4 +5,7 @@
     top: 20px;
     position: sticky;
     border-bottom: 1px solid var(--gray-200);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
