@@ -1,6 +1,6 @@
 import React from 'react';
-import { useThemeContext } from '../../../app/theme/ThemeProvider';
-import { Theme } from '../../../app/theme/type';
+import { useThemeContext } from '../../../../app/theme/ThemeProvider';
+import { Theme } from '../../../../app/theme/type';
 
 export const ThemeSwitcher: React.FC = () => {
   const { theme, setTheme } = useThemeContext();
