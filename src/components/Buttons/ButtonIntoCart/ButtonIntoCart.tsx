@@ -1,5 +1,6 @@
 import React from 'react';
 import * as styles from './ButtonIntoCart.module.scss';
+import { useTranslation } from 'react-i18next';
 
 type ButtonIntoCartProps = {
   count?: number;
@@ -7,16 +8,17 @@ type ButtonIntoCartProps = {
 };
 
 export const ButtonIntoCart: React.FC<ButtonIntoCartProps> = ({ count = 0, disabled = false }) => {
+  const { t } = useTranslation();
   return (
     <div className={styles.disabled ? `disabled` : ``}>
       {count == 0 ? (
         <div className={[styles.buttonIntoCart, styles.buy].join(' ')}>
-          <span>В корзину</span>
+          <span>{t(`components.ButtonIntoCart.text`)}</span>
         </div>
       ) : (
         <div className={[styles.buttonIntoCart, styles.count].join(' ')}>
           <span>
-            Количество <button>+</button> {count} <button>-</button>
+            {t(`components.ButtonIntoCart.count`)} <button>+</button> {count} <button>-</button>
           </span>
         </div>
       )}

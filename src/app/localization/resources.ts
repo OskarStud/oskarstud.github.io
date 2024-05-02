@@ -126,6 +126,13 @@ export const resources = {
         logo: {
           text: 'LOGO',
         },
+        ButtonIntoCart: {
+          text: 'Into cart',
+          count: 'Count',
+        },
+        SimpleButton: {
+          text: 'Simple button',
+        },
       },
       enums: {
         ExampleKey: {
@@ -273,6 +280,13 @@ export const resources = {
         },
         logo: {
           text: 'ЛОГО',
+        },
+        ButtonIntoCart: {
+          text: 'В корзину',
+          count: 'Количество',
+        },
+        SimpleButton: {
+          text: 'Обычная кнопка',
         },
       },
       enums: {
