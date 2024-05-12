@@ -27,7 +27,6 @@ const getTheme = (): Theme => {
 
 export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
   const [theme, setTheme] = useState(getTheme);
-  console.log('@@@', theme);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
