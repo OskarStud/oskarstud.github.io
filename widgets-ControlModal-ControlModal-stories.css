@@ -1,6 +1,6 @@
-.modal__ufBCd{width:400px;height:300px;border:1px solid var(--gray-200);border-radius:6px;background-color:var(--base-white-2);text-align:center;position:fixed;top:50%;left:50%;transform:translate(-50%, -50%);box-shadow:0 0 80px 40px var(--gray-400);word-wrap:break-word;padding:40px 20px}.modal__ufBCd .button__HTY1x{position:absolute;top:10px;left:10px}
 .buttonIntoCart__wlxvK{width:375px;height:54px;padding:14px 20px;border-radius:6px;text-align:center}.buy__JxGLw{color:var(--base-white);background-color:var(--primary-500)}.count__RVb_a{color:var(--primary-500);border:1px solid var(--primary-500)}.disabled__rrUoZ{pointer-events:none;opacity:.4}
 .simpleButton__BP4Ka{width:167px;height:54px;padding:14px 20px;border-radius:6px;color:var(--neutral-900);border:1px solid var(--primary-500);background-color:var(--base-white)}.simpleButton__BP4Ka:active{background-color:var(--primary-500)}
+.modal__ufBCd{width:400px;height:300px;border:1px solid var(--gray-200);border-radius:6px;background-color:var(--base-white-2);text-align:center;position:fixed;top:50%;left:50%;transform:translate(-50%, -50%);box-shadow:0 0 80px 40px var(--gray-400);word-wrap:break-word;padding:40px 20px}.modal__ufBCd .button__HTY1x{position:absolute;top:10px;left:10px}
 .inputField__iAQAF{width:320px;height:54px;padding:16px 20px;border-radius:6px;border:1px solid var(--gray-400);background:var(--base-white)}
 
-/*# sourceMappingURL=components-Modal-Modal-stories.css.map*/
+/*# sourceMappingURL=widgets-ControlModal-ControlModal-stories.css.map*/
