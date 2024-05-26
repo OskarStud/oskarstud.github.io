@@ -9,7 +9,8 @@ const config: StorybookConfig = {
     '@storybook/addon-essentials',
     '@storybook/addon-onboarding',
     '@storybook/addon-interactions',
-    '@storybook/addon-docs'
+    '@storybook/addon-docs',
+    'storybook-addon-themes'
   ],
   framework: {
     name: '@storybook/react-webpack5',
@@ -82,7 +83,6 @@ const config: StorybookConfig = {
             loader: "css-loader",
             options: {
               modules: {
-
                 exportLocalsConvention: 'camelCaseOnly',
                 localIdentName: '[local]__[contenthash:base64:5]'
               },

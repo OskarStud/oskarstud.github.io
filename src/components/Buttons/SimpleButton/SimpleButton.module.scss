@@ -1,7 +1,13 @@
 .simpleButton {
-  padding: 13px 24px 14px 24px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 140px;
-  border: 1px solid var(--white-color);
+  width: 167px;
+  height: 54px;
+  padding: 14px 20px;
+  border-radius: 6px;
+  color: var(--neutral-900);
+  border: 1px solid var(--primary-500);
+  background-color: var(--base-white);
+}
+
+.simpleButton:active {
+  background-color: var(--primary-500);
 }
