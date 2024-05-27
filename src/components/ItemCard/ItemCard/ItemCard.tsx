@@ -14,7 +14,7 @@ export const ItemCard: React.FC<ItemCardProps> = ({
   price = '100 руб',
   description = 'Description',
   label = 'Label',
-  imgSrc = '../../../img/mouseMainFull.png',
+  imgSrc = require('../../../img/mouseMainFull.png'),
 }) => {
   return (
     <div className={styles.itemCard}>
