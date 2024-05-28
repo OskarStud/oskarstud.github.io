@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from '../Header';
-import { Modal } from '../Modal';
+import { ControlModal } from '../Modal';
 import { ButtonIntoCart, SimpleButton } from '../Buttons';
 import { ItemCard, ItemCardFull, ItemCardInCart } from '../ItemCard';
 import { CardsList } from '../CardsList';
@@ -11,7 +11,7 @@ export const Layout: React.FC = () => {
     <>
       <Header />
       <ItemCard />
-      <Modal />
+      <ControlModal />
       <ButtonIntoCart count={2} />
       <ButtonIntoCart count={0} />
       <SimpleButton />
