@@ -1,29 +1,33 @@
 import React from 'react';
 import * as styles from './ItemCard.module.scss';
 import { Badge } from '../../Badge';
-import { cutText } from '../../../helpers/helpers';
+import { cutText } from '../../../shared/lib/helpers';
 
-type ItemCardProps = {
+export type ItemCardProps = {
+  id?: string;
   price?: string;
   description?: string;
-  label?: string;
+  badge?: string;
   imgSrc?: string;
+  name?: string;
 };
 
 export const ItemCard: React.FC<ItemCardProps> = ({
   price = '100 руб',
   description = 'Description',
-  label = 'Label',
+  badge = 'Badge',
+  name = 'Name',
+  imgSrc = require('../../../img/mouseMainFull.png'),
 }) => {
   return (
     <div className={styles.itemCard}>
-      <img className={styles.image} src={require('../../../img/mouseMainFull.png')} />
+      <img className={styles.image} src={imgSrc} />
       <div className={styles.content}>
         <div className={styles.badgeList}>
-          <Badge text="Mouse" />
-          <Badge text="Best Seller" />
+          <Badge text={badge} />
+          {/*<Badge text="Best Seller" />*/}
         </div>
-        <div className={styles.label}>{label}</div>
+        <div className={styles.label}>{name}</div>
         <div className={styles.description}>{cutText(description)}</div>
         <div className={styles.price}>{price}.</div>
       </div>

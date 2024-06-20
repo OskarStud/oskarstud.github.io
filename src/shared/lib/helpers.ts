@@ -4,3 +4,8 @@ export function cutText(text: string): string {
   }
   return text;
 }
+
+export function generateId() {
+  const generatedId = Math.random().toString(16).slice(2);
+  return generatedId;
+}
