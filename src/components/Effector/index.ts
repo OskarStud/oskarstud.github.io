@@ -1,0 +1,1 @@
+export { Effector } from './Effector';
