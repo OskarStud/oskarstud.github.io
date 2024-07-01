@@ -5,6 +5,7 @@ import { ButtonIntoCart, SimpleButton } from '../Buttons';
 import { ItemCard, ItemCardFull, ItemCardInCart } from '../ItemCard';
 import { CardsList } from '../CardsList';
 import itemCardsData from '../../shared/mock';
+import { Effector } from '../Effector';
 
 export const Layout: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ export const Layout: React.FC = () => {
       <ItemCardFull />
       <ItemCardInCart />
       <CardsList data={itemCardsData} />
+      <Effector />
     </>
   );
 };
